@@ -1,6 +1,9 @@
 import tkinter as tk
 import random as rd
 
+"""claire.baskevitch@uvsq.fr"""
+
+
 couleur="blue"
 objets=[]
 
@@ -66,4 +69,6 @@ boutton_carre.grid(row=1,column=0,pady=80)
 boutton_cercle.grid(row=2,column=0)
 boutton_croix.grid(row=3,column=0,pady=80)
 boutton_undo.grid(row=0,columnspan=1)
+
+
 root.mainloop()
